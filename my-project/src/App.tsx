@@ -4,7 +4,7 @@ import Dashboard from "./pages/dashboard/index"; // or just from "./pages/dashbo
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      {/* <Dashboard /> */}
     </div>
   );
 }
