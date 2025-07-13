@@ -1,12 +1,15 @@
-// import React from "react";
-import Dashboard from "./pages/dashboard/index"; // or just from "./pages/dashboard" if using an index
+// src/App.tsx
+import { Header } from "./component/layout";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* <Dashboard /> */}
-    </div>
+    <>
+      <Header />
+      <main className="p-4">
+        <h1>Welcome to MySite!</h1>
+      </main>
+    </>
   );
-}
+};
 
 export default App;
